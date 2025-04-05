@@ -12,5 +12,5 @@ apt update
 # Install Elastic
 apt install elasticsearch
 
-mv /etc/elasticsearch/elasticsearch.yml ../configs/elasticsearch_backup.yml
-cp ../configs/elasticsearch.yml /etc/elasticsearch/elasticsearch.yml
+# mv /etc/elasticsearch/elasticsearch.yml ../../configs/elasticsearch_backup.yml
+cp ../../configs/elasticsearch.yml /etc/elasticsearch/elasticsearch.yml
