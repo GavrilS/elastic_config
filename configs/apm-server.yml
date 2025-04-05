@@ -1,0 +1,12 @@
+apm-server:
+  host: "localhost:8200"
+  rum:
+    enabled: true
+
+output:
+  elasticsearch:
+    hosts: localhost:9200
+
+queue.mem.events: 4096
+
+max_procs: 4
