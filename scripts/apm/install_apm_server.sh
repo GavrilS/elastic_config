@@ -14,3 +14,6 @@ sudo apt-get update && sudo apt-get install apm-server
 
 # 5. Configure automatic start
 # sudo update-rc.d apm-server defaults 95 10
+
+# 6. Run apm server
+# sudo -u apm-server apm-server [<argument...>]
