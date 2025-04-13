@@ -2,6 +2,9 @@ apm-server:
   host: "localhost:8200"
   rum:
     enabled: true
+  auth:
+    anonymous:
+      allow_service: [calorie_app]
 
 output:
   elasticsearch:
